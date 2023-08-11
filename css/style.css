@@ -2,6 +2,15 @@ body {
     font-family: 'Merriweather', serif;    
 }
 
+.container-wrapper {
+
+}
+
+.container-wrapper--orange {
+    background-color: #e97716;
+    color: white;
+}
+
 .alert-container .col-12 {
     z-index: 1; 
     padding-left: 0px;
@@ -54,6 +63,23 @@ body {
     border: 0;
     background-color: #e97716;;
 }
+
+.block-divider--short {
+    width: 35px;
+    height: 5px;
+    border: 0;    
+    background-color: #e97716;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+/* Content-container */
+ .content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+ }
 
 /* Navbar */
 
@@ -129,4 +155,41 @@ body {
     background-color: #964a09;
     border-color: #964a09;
     color: white;
+}
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+
+/* Features */
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    font-size: 45px;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #e97716;
 }
